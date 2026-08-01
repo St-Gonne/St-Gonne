@@ -1,7 +1,6 @@
 # Sharan Tulsiani
-Alright, first time on GitHub. I don't write code, always wanted to learn and be a "techie" as it's defined here in India
-but honesly, never got the grades to get into super competitive entrance exams here, and never thought I ever would 'build' something myself. BUT! here I am now.
-About me: Entrepreneur, worked in Partnerships, BD and marketing roles at Google, Microsoft. Built my own company, fundraised and just exited. Was diagnosed with ADHD very very late in life and then it all clicked.
+Alright, first time on GitHub. I don't write code, always wanted to learn.. BUT! here I am now.
+About me: Entrepreneur, worked in Partnerships, BD and marketing roles at Google, Microsoft. Built my own company, fundraised and just exited. Neurodivergent and building with AI is really scratching that itch
 
 What I have been doing in 2026 is building AI systems anyway. Real ones, for me, in daily use. Followed a rule I took years to learn: Double down on strengths and delegate weaknesses. And the emergence of this type of AI allowed me a shot at doing it myself. 
 
