@@ -1,20 +1,33 @@
+# Sharan Tulsiani
 
-Building for personal daily use. Approaching this as a AI systems architect and operator for my real workflows. Aiming for these daily use tools to be local-first, evidence-driven.
+I design AI systems for problems I live with every day: private meeting
+intelligence, reliable personal finance, persistent memory and evidence-grounded
+document retrieval. I want these systems to be local-first, honest about what they
+know and useful enough to earn a place in my daily life.
 
-My approach is for the the AI to write every line of the implementation, and I make sense of my needs, figure out how it should come together, test it out, keep improving until it flows the way I want it to. 
+I approach the work as an AI systems architect and operator. I turn messy needs into
+specifications, constraints, acceptance gates and operating decisions. Codex and
+Claude write the implementation under those controls. I test the behaviour, reject
+what does not hold up and keep improving the system against real workflows.
 
-These repos are that work, published as it develops. WIPs on purpose, so I can share it with people for feedback. Not aiming for polished code, because I can't tell what that is. It's great that the AI's code gets better with every model release, and I'm banking continuous improvement. 
-My goal as someone who doesn't write code is to get comfortable and learn how to build system and think in terms of architecture, so i can improve my daily operator life, and in such a way that I trust the AI output.
+I do not write the implementation code, and I do not hide that. The question I am
+working on is more useful to me: how do I get systems I can trust from AI builders
+when I cannot review every line myself?
 
-(Have used AI to help write the notes below, so it's understandable)
+These repositories show that work as it develops, including the failures that changed
+the rules. Some are runnable open-source tools. Others are sanitized architecture
+records because the working systems contain private meetings, finances and personal
+context. The data stays private; the method and evidence can be public.
 
 ## The systems
 
-| Repo | What it is | Status |
+| Repo | What it is | Public status |
 |---|---|---|
-| [meeting-intelligence-system](https://github.com/sharantulsiani-ui/meeting-intelligence-system) | A PRIVATE meeting pipeline that runs entirely on my Mac locally. Takes meeting recordings from my laptop and phone (recorded with consent), transcribes them, works out who said what (diarization), and produces one short daily brief. Built by OpenAI's Codex working under a written control file. | In daily use since early July 2026 |
-| [ai-chief-of-staff](https://github.com/sharantulsiani-ui/ai-chief-of-staff) | A permanent local memory vault operated by Claude as a Chief of Staff. Daily briefings, a commitment ledger, health tracking in the same system as work, and provenance rules so I always know where a claim came from. | In daily use since 5 July 2026 |
-| [finance-tracker](https://github.com/sharantulsiani-ui/finance-tracker) | A local-first personal finance system. Bank and card statements become one record I can question, with hard rules: statements are truth, emails are gossip, and the math must close before anything imports. Built by Codex; the AI that wrote it can't even see my statement passwords. | In daily use since 11 July 2026 |
+| [extractcheck](https://github.com/sharantulsiani-ui/extractcheck) | An offline benchmark for finding what document extractors miss across PDF, PowerPoint, Excel and Word, with exact source provenance. | Runnable Apache-2.0 benchmark with CI |
+| [meetingintel-phone-ingest](https://github.com/sharantulsiani-ui/meetingintel-phone-ingest) | A privacy-safe intake boundary for segmented phone recordings: retrieve, wait for stable uploads, prevent duplicates, review grouping and produce canonical audio. | Runnable Apache-2.0 toolkit with CI and an external contribution |
+| [ai-chief-of-staff](https://github.com/sharantulsiani-ui/ai-chief-of-staff) | A permanent local memory vault operated by Claude as a chief of staff, with daily briefings, a commitment ledger and provenance rules for every claim. | Sanitized architecture, templates and one working script; private system in daily use |
+| [meeting-intelligence-system](https://github.com/sharantulsiani-ui/meeting-intelligence-system) | A local meeting pipeline that turns consented recordings into speaker-labelled notes and one short daily brief. | Sanitized architecture record; private system in daily use |
+| [finance-tracker](https://github.com/sharantulsiani-ui/finance-tracker) | A local-first personal finance system where statements are canonical evidence, supporting sources cannot silently rewrite them, and the maths must close before import. | Public architecture and reusable guard toolkit; private system in daily use |
 
 MeetingIntel + Chief of Staff are connected: CoS provides context for constantly improving Diarization, notes and todos. Email, calendar access etc is part of the design.
 
