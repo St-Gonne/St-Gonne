@@ -1,4 +1,4 @@
-# Sharan Tulsiani
+#me
 
 Building systems, for solving problems or annoyances, many unique, from a personal perspective. 
 Family financial management, private meeting intelligence, reliable India-centric personal finance,
