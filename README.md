@@ -1,9 +1,9 @@
 # Sharan Tulsiani
 
-I design AI systems for problems I live with every day: private meeting
-intelligence, reliable personal finance, persistent memory and evidence-grounded
-document retrieval. I want these systems to be local-first, honest about what they
-know and useful enough to earn a place in my daily life.
+Building systems, for solving problems or annoyances, many unique, from a personal perspective. 
+Family financial management, private meeting intelligence, reliable India-centric personal finance,
+persistent memory and evidence-groundeddocument retrieval. I want these systems to be local-first, 
+honest about what they know and useful enough to earn a place in my daily life.
 
 I approach the work as an AI systems architect and operator. I turn messy needs into
 specifications, constraints, acceptance gates and operating decisions. Codex and
