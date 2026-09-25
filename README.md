@@ -10,8 +10,7 @@ by Accel, Fireside Ventures and JetSynthesys. That meant fundraising, acquisitio
 working with investors and running the companies after the deal. At Google Play,
 I worked with developers and helped build the Indie Games Accelerator.
 
-I studied at the Indian School of Business and attended a summer programme at
-UC Berkeley Haas.
+I studied at the Indian School of Business.
 
 These days, alongside fundraising and advisory work, I'm building things with
 AI. Mostly things I want to use myself. Family finances that are scattered
