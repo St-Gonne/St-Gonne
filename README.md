@@ -1,26 +1,18 @@
 # ST
 
-I've spent most of my career building companies, working with founders and
-getting deals done. I've been a founder and CEO, raised capital, bought
-businesses and worked through cross-border transactions. Before that, I was at
-Google. Earlier work included Xbox India's digital community.
+I've built and run companies, raised capital and done cross-border acquisitions.
+I've worked inside global technology companies, alongside venture funds and
+founders, and as a CEO responsible for making the whole thing work.
 
-At Jetapult, I built and ran a gaming investment and operating business backed
-by Accel, Fireside Ventures and JetSynthesys. That meant fundraising, acquisitions,
-working with investors and running the companies after the deal. At Google Play,
-I worked with developers and helped build the Indie Games Accelerator.
+I still work on fundraising, M&A and advising businesses. I'm also building
+software with AI. Mostly things I want to use myself: family finances that are
+scattered across accounts, meetings I don't want to lose track of, and years of
+documents that should be easier to find and make sense of.
 
-I studied at the Indian School of Business.
-
-These days, alongside fundraising and advisory work, I'm building things with
-AI. Mostly things I want to use myself. Family finances that are scattered
-across accounts. Meetings I don't want to lose track of. Years of documents
-that should be easier to find and make sense of.
-
-I've spent years building with teams. Now I can also get much closer to the
-software myself. Codex and Claude write the code; I work on the product, make
-the decisions and keep testing whether the result does what I needed. Some of
-it works well. Some of it is still awkward. Both are here.
+The tools here come out of those problems. I work on what they should do and
+keep testing them against what I actually need. AI coding tools write the code.
+Some of it works well, some is still being figured out. I'm sharing the useful
+parts as they become ready.
 
 ## What I'm working on
 
