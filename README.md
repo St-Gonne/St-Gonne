@@ -24,8 +24,8 @@ parts as they become ready.
 | [ExtractCheck](https://github.com/St-Gonne/extractcheck) | Find what a document extractor lost before trusting search built on top of it. | An offline, runnable benchmark using generated documents. |
 | [AI Chief of Staff](https://github.com/St-Gonne/ai-chief-of-staff) | Keep commitments and context across conversations instead of starting again each time. | Design notes, templates and a small script. |
 
-ExtractCheck and the phone-ingestion toolkit use Apache-2.0; MoneyMoney uses MIT.
-MeetingIntel application code and Voice ID use PolyForm Noncommercial. Older
+ExtractCheck and the phone-ingestion toolkit use Apache-2.0. MoneyMoney,
+MeetingIntel application code and Voice ID use MIT, including commercial reuse. Older
 architecture documents have their own terms. Real financial records, recordings and
 personal context stay private.
 
