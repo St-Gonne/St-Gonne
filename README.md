@@ -1,54 +1,41 @@
-#me
+# ST
 
-Building systems, for solving problems or annoyances, many unique, from a personal perspective. 
-Family financial management, private meeting intelligence, reliable India-centric personal finance,
-persistent memory and evidence-groundeddocument retrieval. I want these systems to be local-first, 
-honest about what they know and useful enough to earn a place in my daily life.
+I've spent most of my career building companies, working with founders and
+getting deals done. I've been a founder and CEO, raised capital, bought
+businesses and worked through cross-border transactions. Before that, I was at
+Google. Earlier work included Xbox India's digital community.
 
-I approach the work as an AI systems architect and operator. I turn messy needs into
-specifications, constraints, acceptance gates and operating decisions. Codex and
-Claude write the implementation under those controls. I test the behaviour, reject
-what does not hold up and keep improving the system against real workflows.
+At Jetapult, I built and ran a gaming investment and operating business backed
+by Accel, Fireside Ventures and JetSynthesys. That meant fundraising, acquisitions,
+working with investors and running the companies after the deal. At Google Play,
+I worked with developers and helped build the Indie Games Accelerator.
 
-I do not write the implementation code, and I do not hide that. The question I am
-working on is more useful to me: how do I get systems I can trust from AI builders
-when I cannot review every line myself?
+I studied at the Indian School of Business and attended a summer programme at
+UC Berkeley Haas.
 
-These repositories show that work as it develops, including the failures that changed
-the rules. Some are runnable open-source tools. Others are sanitized architecture
-records because the working systems contain private meetings, finances and personal
-context. The data stays private; the method and evidence can be public.
+These days, alongside fundraising and advisory work, I'm building things with
+AI. Mostly things I want to use myself. Family finances that are scattered
+across accounts. Meetings I don't want to lose track of. Years of documents
+that should be easier to find and make sense of.
 
-## The systems
+I've spent years building with teams. Now I can also get much closer to the
+software myself. Codex and Claude write the code; I work on the product, make
+the decisions and keep testing whether the result does what I needed. Some of
+it works well. Some of it is still awkward. Both are here.
 
-| Repo | What it is | Public status |
-|---|---|---|
-| [extractcheck](https://github.com/sharantulsiani-ui/extractcheck) | An offline benchmark for finding what document extractors miss across PDF, PowerPoint, Excel and Word, with exact source provenance. | Runnable Apache-2.0 benchmark with CI |
-| [meetingintel-phone-ingest](https://github.com/sharantulsiani-ui/meetingintel-phone-ingest) | A privacy-safe intake boundary for segmented phone recordings: retrieve, wait for stable uploads, prevent duplicates, review grouping and produce canonical audio. | Runnable Apache-2.0 toolkit with CI and an external contribution |
-| [ai-chief-of-staff](https://github.com/sharantulsiani-ui/ai-chief-of-staff) | A permanent local memory vault operated by Claude as a chief of staff, with daily briefings, a commitment ledger and provenance rules for every claim. | Sanitized architecture, templates and one working script; private system in daily use |
-| [meeting-intelligence-system](https://github.com/sharantulsiani-ui/meeting-intelligence-system) | A local meeting pipeline that turns consented recordings into speaker-labelled notes and one short daily brief. | Sanitized architecture record; private system in daily use |
-| [finance-tracker](https://github.com/sharantulsiani-ui/finance-tracker) | A local-first personal finance system where statements are canonical evidence, supporting sources cannot silently rewrite them, and the maths must close before import. | Public architecture and reusable guard toolkit; private system in daily use |
+## What I'm working on
 
-MeetingIntel + Chief of Staff are connected: CoS provides context for constantly improving Diarization, notes and todos. Email, calendar access etc is part of the design.
+| Project | Why it exists | What you can get here |
+| --- | --- | --- |
+| [MoneyMoney](https://github.com/St-Gonne/moneymoney) | Help my family see what we own, where the numbers come from and what's missing. Includes a simpler view being built for my dad. | Public prototype code, newer synthetic screenshots and the work still to do. The latest private version isn't fully published yet. |
+| [MeetingIntel](https://github.com/St-Gonne/meeting-intelligence-system) | Turn private recordings into notes, follow-ups and a daily brief. | Design and release plan. The [phone-ingest toolkit](https://github.com/St-Gonne/meetingintel-phone-ingest) is runnable; the full app and Voice ID aren't public releases yet. |
+| [ExtractCheck](https://github.com/St-Gonne/extractcheck) | Find what a document extractor lost before trusting search built on top of it. | An offline, runnable benchmark using generated documents. |
+| [AI Chief of Staff](https://github.com/St-Gonne/ai-chief-of-staff) | Keep commitments and context across conversations instead of starting again each time. | Design notes, templates and a small script. |
 
-More will land here as it passes the privacy screen. Everything real inside these systems is my actual work life, so what gets published is the system design and not my data.
+The two standalone tools use Apache-2.0; MoneyMoney uses MIT. The architecture
+repositories have different reuse terms. Real financial records, recordings and
+personal context stay private.
 
-## How I work with AI builders, the short version
-
-1. I only build things I personally need everyday. Success means "I use it daily", not "it runs".
-2. Constraints get written down before architecture. Privacy boundaries, my attention limits, what always needs my approval.
-3. The AI works under a written contract, a control file with one active milestone at a time, clear pass criteria, and a standing rule that the file beats anything said in chat.
-4. Nothing unproven touches the live system. New capability runs in parallel until it passes a gate on real cases, judged by me.
-5. Every mistake becomes a written rule, with the incident that caused it attached.
-
-And to be clear about what I do and don't do: the AI writes the code and most first drafts. I write the decisions, the constraints, the gates and the rejections. I keep those two things separate on purpose so I can focus on Architecture and Outcome.
-
-## Contact
-
-sharan.tulsiani@gmail.com
-
-
-
-## License
-
-Read it, learn from it, share it with credit. Not open source though: no commercial use and no modified redistribution without permission. Details in [LICENSE.md](LICENSE.md).
+If you're working on a similar problem, a specific bug, an independent run or a
+small improvement is useful. The runnable projects have setup and contribution
+instructions. No need to understand the rest of my setup to use those tools.
